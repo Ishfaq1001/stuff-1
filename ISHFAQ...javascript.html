@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>
+            Using Continue Statement
+        </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        
+            let count=0;
+            while(count<10)
+            {
+                ++count;
+                if((count%5==0))
+                {
+                    break;
+                }
+                else
+                {
+                    document.write("count is "+count+"<BR/>")
+                }
+            }
+            document.write("while loop terminated");
+            				// Return Statement
+		    function square(x) {
+	   			return x * x;
+			}
+var demo = square(3);
+            var count=0;
+            while(count<10)
+            {
+                ++count;
+                if(count%2==0)
+                {
+                    // jump to next iteration
+                    continue;
+                }
+                document.write("count="+count+"<BR/>");
+            }
+            document.write("While loop terminated");
+            
+            
+            
+		if (marks > 90 && marks <= 100)
+		{
+		grade = 'A+';
+		}
+		if (marks > 80 && marks <= 90)
+		{
+		grade = 'A';
+		}
+		else if (marks > 70 && marks <= 80)
+		{
+		grade= 'B';
+		}
+		else if (marks > 60 && marks <= 70)
+		{
+		grade = 'C';
+		}
+		else if (marks > 50 && marks <= 60)
+		{
+		grade='D';
+		}
+		else
+		{
+		grade='fail';
+		}
+		let i = 9; 
+		switch (i)  
+		    { 
+		       case 0: 
+			   console.log("i is zero."); 
+			   break; 
+		       case 1: 
+			   console.log("i is one."); 
+			   break; 
+		       case 2: 
+			   console.log("i is two."); 
+			   break; 
+		       default: 
+			   console.log("i is greater than 2."); 
+		    }
+		    
+		    for (i=1; i<=5; i++)  
+			{  
+		 		document.write(i + "<br/>")  
+			}  
+			
+			var i=11;  
+			while (i<=15)  
+			{  
+				document.write(i + "<br/>");  
+				i++;  
+			}  
+			
+			
+			var i=21;  
+			do{  
+				document.write(i + "<br/>");  
+				i++;  
+			}while (i<=25); 
+        </script>
+    </body>
+</html>
+
